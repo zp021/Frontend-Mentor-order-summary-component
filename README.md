@@ -25,11 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desktop-dark.jpg)
-![](./mobile-dark.jpg)
 ![](./desktop.jpg)
 ![](./mobile.jpg)
-
+![](./desktop-dark.jpg)
+![](./mobile-dark.jpg)
 
 ### Links
 
@@ -38,7 +37,7 @@ Users should be able to:
 
 ## My process
 
-I opted for desktop first approach this time. As this is an often debated topic online, i wanted to try both approaches when doing these challenges.
+I opted for desktop first approach this time. As this is an often debated topic online, I wanted to try both approaches when doing these challenges. I decided to add a dark mode to this challenge to personalize it a bit.
 
 ### Built with
 
