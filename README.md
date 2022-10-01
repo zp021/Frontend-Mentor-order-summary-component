@@ -51,7 +51,7 @@ I had to research putting svgs as background and how to match the design as clos
 
 ### Useful resources
 
-
+- [Dark mode](https://codepen.io/kevinpowell/pen/EMdjOV) - This helped me with implementing dark mode
 
 ## Author
 
