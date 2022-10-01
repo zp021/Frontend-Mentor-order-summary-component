@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL](https://your-solution-url.com)
-[Live site URL here](https://zp021-order-summary-component.netlify.app/)
+- [Solution URL](https://your-solution-url.com)
+- [Live site URL here](https://zp021-order-summary-component.netlify.app/)
 
 ## My process
 
