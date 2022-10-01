@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/my-solution-for-the-order-summary-component-challenge-dark-mode-F8U1FjkgzY)
 - [Live site URL](https://zp021-order-summary-component.netlify.app/)
 
 ## My process
