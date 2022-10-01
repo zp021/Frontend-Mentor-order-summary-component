@@ -27,6 +27,8 @@ Users should be able to:
 
 ![](./desktop.jpg)
 ![](./mobile.jpg)
+![](./desktop-dark.jpg)
+![](./mobile-dark.jpg)
 
 ### Links
 
