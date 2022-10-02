@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+</head>
+<body>
+
+  <main>
+
+    <article class="container">
+
+      <img src="./images/illustration-hero.svg" alt="" aria-hidden="true">
+
+      <div class="text">
+        <h1>Order Summary</h1>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+      </div>
+
+      <div class="plan">
+        <div class="plan-left">
+          <img src="./images/icon-music.svg" alt="two notes icon">
+            <div class="plan-options">
+              <h2>Annual Plan</h2>
+              <p>$59.99/year</p>
+            </div>
+        </div>
+          <a href="" class="plan-right">Change</a>
+      </div>
+
+        
+        <a href="#" class="btn-payment">Proceed to Payment</a>
+        
+        <a href="#" class="btn-cancel">Cancel Order</a>
+
+      </article>
+
+      <button id="dark-mode-toggle" class="dark-mode-toggle">
+        <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,
+        8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+      </button>
+
+  </main>
+
+  <script>
+        
+    let darkMode = localStorage.getItem('darkMode'); 
+
+    const darkModeToggle = document.querySelector('#dark-mode-toggle');
+
+    const enableDarkMode = () => {
+      document.body.classList.add('darkmode');
+      localStorage.setItem('darkMode', 'enabled');
+    }
+
+    const disableDarkMode = () => {
+      document.body.classList.remove('darkmode');
+      localStorage.setItem('darkMode', null);
+    }
+    
+    if (darkMode === 'enabled') {
+      enableDarkMode();
+    }
+
+    darkModeToggle.addEventListener('click', () => {
+      darkMode = localStorage.getItem('darkMode'); 
+      
+      if (darkMode !== 'enabled') {
+        enableDarkMode();
+      } else {  
+        disableDarkMode(); 
+      }
+    });
+    
+  </script>
+
+</body>
+</html>
